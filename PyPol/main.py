@@ -74,3 +74,6 @@ with open(poll_csv, newline='') as csvfile:
     
     # use function
     get_results(csvreader)
+    
+    
+    #hwt3

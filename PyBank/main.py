@@ -1,4 +1,3 @@
-
 #   The total number of months included in the dataset
 #   The net total amount of "Profit/Losses" over the entire period
 #   The average of the changes in "Profit/Losses" over the entire period
@@ -24,10 +23,9 @@ profit_loss_change = 0
 # add path
 budget_data_csv_path = os.path.join("Resource" ,"budget_data.csv")
 
-
 #   read csv
 with open(budget_data_csv_path, newline="") as csvfile:
-
+    
     csv_reader = csv.reader(csvfile, delimiter=",")
 
     # Read the header row first
